@@ -33,7 +33,7 @@ class TimerDisplay extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(20.0),
       child: Text(
-        'Time remaining: ${_formatTime()}',
+        _formatTime(),
         style: const TextStyle(
           fontSize: 24,
           fontWeight: FontWeight.bold,
